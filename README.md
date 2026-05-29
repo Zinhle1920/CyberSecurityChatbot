@@ -116,5 +116,5 @@ Text-to-speech
 -App.xaml.cs
 
 ## Video Presentation for part 2 - Youtube link
--
+- https://youtu.be/WuhgxkXD09Y
 
