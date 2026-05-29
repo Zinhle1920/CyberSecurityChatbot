@@ -64,4 +64,4 @@ jobs:
       run: dotnet restore
 
     - name: Build WPF Project
-      run: msbuild CyberSecurityChatBot.sln /p:Configuration=Release
+      run: msbuild*.sln/p:Configuration=Release
