@@ -1,0 +1,53 @@
+﻿<Window x:Class="CyberSecurityChatBot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CyberSecurity ChatBot"
+        Height="600"
+        Width="900"
+        Background="#FFF8F0F5">
+
+    <Grid Margin="20">
+
+        <StackPanel>
+
+            <TextBlock Text="🔒 CYBERSECURITY AWARENESS BOT 🔒"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="HotPink"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="CyberSecurity ChatBot"
+                       FontSize="30"
+                       FontWeight="Bold"
+                       Foreground="DeepPink"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Name="ChatDisplay"
+                       Height="350"
+                       TextWrapping="Wrap"
+                       Background="White"
+                       Padding="10"
+                       FontSize="16"
+                       Margin="0,0,0,20"/>
+
+            <TextBox Name="UserInput"
+                     Height="40"
+                     FontSize="16"
+                     Margin="0,0,0,10"
+                     KeyDown="UserInput_KeyDown"/>
+
+            <Button Name="SendButton"
+                    Content="Send"
+                    Height="40"
+                    Background="HotPink"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="SendButton_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
