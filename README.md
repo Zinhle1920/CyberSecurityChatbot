@@ -219,6 +219,7 @@ Text-to-speech
 * Added System.Speech reference.
 * Configured project for .NET 8.
 
-## YOUTUBE PRESENTATION LINK:
+## YOUTUBE PRESENTATION LINK FOR PART 3:
+https://www.youtube.com/watch?v=A8TyWm6P-ks
 
 
