@@ -118,3 +118,107 @@ Text-to-speech
 ## Video Presentation for part 2 - Youtube link
 - https://youtu.be/WuhgxkXD09Y
 
+
+# Part 3 for the CyberSecurityChatbot
+
+## MainWindow.xaml
+
+* Created the chatbot user interface.
+* Added chat panel and task assistant.
+* Added quick action buttons.
+* Improved accessibility.
+* Fixed XAML compatibility issues.
+
+## MainWindow.xaml.cs
+
+* Added chatbot functionality.
+* Implemented task management.
+* Added quiz functionality.
+* Added activity log.
+* Added speech responses.
+* Added conversation memory.
+
+## ChatBot.cs
+
+* Processes user input.
+* Detects user intentions.
+* Responds to cybersecurity questions.
+* Connects tasks, quiz and activity log.
+
+## KeywordResponder.cs
+
+* Detects cybersecurity keywords.
+* Responds to phishing, passwords, malware and other topics.
+* Detects task, quiz and activity log commands.
+
+## SentimentDetector.cs
+
+* Detects positive, negative and worried emotions.
+* Provides helpful cybersecurity tips.
+
+## MemoryStore.cs
+
+* Stores conversation history.
+* Remembers previous topics.
+* Supports follow-up questions.
+
+## CyberTask.cs
+
+* Stores task information.
+* Includes task title, description, reminder and completion status.
+
+## TaskStorageHelper.cs
+
+* Saves tasks to a JSON file.
+* Loads tasks from JSON.
+* Updates and deletes tasks.
+
+## TaskManager.cs
+
+* Manages task operations.
+* Adds, completes and deletes tasks.
+* Connects task storage with activity logging.
+
+## QuizQuestion.cs
+
+* Stores quiz questions and answers.
+* Supports explanations for correct answers.
+
+## QuizManager.cs
+
+* Contains cybersecurity quiz questions.
+* Tracks scores.
+* Gives feedback after each question.
+* Displays final results.
+
+## ActivityLogger.cs
+
+* Records chatbot activities.
+* Stores timestamps.
+* Displays recent and complete activity logs.
+
+## App.xaml
+
+* Starts the application.
+* Loads application resources.
+
+## App.xaml.cs
+
+* Initializes the application.
+
+## Additional Files
+
+* **README.md** – Project information and setup guide.
+* **.gitignore** – Ignores unnecessary Visual Studio files.
+* **tasks.json** – Stores task data.
+* **greeting.wav** – Startup greeting audio (optional).
+
+## Project Configuration
+
+* Added Newtonsoft.Json package.
+* Added System.Speech reference.
+* Configured project for .NET 8.
+
+## YOUTUBE PRESENTATION LINK:
+
+
